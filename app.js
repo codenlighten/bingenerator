@@ -10,6 +10,6 @@ data.addEventListener("keyup", () => {
 	// console.log(bin);
 	document.getElementById(
 		"result"
-	).innerHTML = `Binary:<br> ${bin}<br>Hex:<br>${hex}`;
+	).innerHTML = `Hex:<br>${hex}<br>Binary:<br> ${bin}`;
 	data.innerHTML = "";
 });
