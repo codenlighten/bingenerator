@@ -9,4 +9,5 @@ const onSubmit = () => {
 	let bin = d.toString(2);
 	console.log(bin);
 	document.getElementById("result").innerHTML = bin;
+	data.innerHTML = "";
 };
