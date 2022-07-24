@@ -12,3 +12,7 @@ body {
 	margin: auto;
 	word-wrap: break-word;
 }
+
+input {
+	line-height: 2rem;
+}
