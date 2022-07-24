@@ -6,7 +6,10 @@ data.addEventListener("keyup", () => {
 	}
 	d = parseInt(d);
 	let bin = d.toString(2);
+	let hex = d.toString(16);
 	console.log(bin);
-	document.getElementById("result").innerHTML = bin;
+	document.getElementById(
+		"result"
+	).innerHTML = `Binary:<br> ${bin}<br>Hex:<br>${hex}`;
 	data.innerHTML = "";
 });
