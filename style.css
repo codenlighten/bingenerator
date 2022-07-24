@@ -16,3 +16,7 @@ body {
 input {
 	line-height: 2rem;
 }
+#result {
+	width: 50%;
+	margin: auto;
+}
